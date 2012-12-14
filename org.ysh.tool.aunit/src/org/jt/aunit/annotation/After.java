@@ -1,4 +1,4 @@
-package org.ysh.tool.aunit.annotation;
+package org.jt.aunit.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

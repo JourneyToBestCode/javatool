@@ -1,10 +1,10 @@
-package org.ysh.tool.aunit.example;
+package org.jt.aunit.example;
 
 import java.util.Arrays;
 import java.util.List;
 
-import org.ysh.tool.aunit.runner.DefaultRunner;
-import org.ysh.tool.aunit.runner.Runner;
+import org.jt.aunit.runner.DefaultRunner;
+import org.jt.aunit.runner.Runner;
 
 public class RunnerWithDefaultClassLoader {
 	protected List<String> testCaseList(){

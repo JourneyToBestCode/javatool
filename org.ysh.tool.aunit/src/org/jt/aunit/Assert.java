@@ -1,7 +1,7 @@
-package org.ysh.tool.aunit;
+package org.jt.aunit;
 
-import org.ysh.tool.aunit.error.AssertionFailedError;
-import org.ysh.tool.aunit.error.CompareFailedError;
+import org.jt.aunit.error.AssertionFailedError;
+import org.jt.aunit.error.CompareFailedError;
 
 public final class Assert {
 	public static final void assertTrue(boolean condition){

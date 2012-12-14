@@ -1,4 +1,4 @@
-package org.ysh.tool.aunit.runner;
+package org.jt.aunit.runner;
 
 public interface RunnerListener {
 	public void fireEvent(RunnerEvent runnerEvent);

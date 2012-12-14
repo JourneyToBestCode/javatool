@@ -1,4 +1,4 @@
-package org.ysh.tool.aunit.runner;
+package org.jt.aunit.runner;
 
 public interface Runner {
 	public void run(String btClzName) throws Throwable;

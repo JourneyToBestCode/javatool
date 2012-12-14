@@ -1,4 +1,4 @@
-package org.ysh.tool.aunit.example;
+package org.jt.aunit.example;
 
 import java.util.Arrays;
 import java.util.List;

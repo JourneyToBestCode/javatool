@@ -1,4 +1,4 @@
-package org.ysh.tool.aunit.error;
+package org.jt.aunit.error;
 
 public class ValidateException extends Exception {
 

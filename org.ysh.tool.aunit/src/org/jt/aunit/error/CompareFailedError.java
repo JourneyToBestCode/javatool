@@ -1,4 +1,4 @@
-package org.ysh.tool.aunit.error;
+package org.jt.aunit.error;
 
 public class CompareFailedError extends AssertionError{
 	private static final long serialVersionUID = -8373632606906712868L;

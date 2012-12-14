@@ -181,14 +181,18 @@ public class DefaultRunner implements Runner {
 	@Override
 	public void addListener(RunnerListener listener) {
 		if (listener != null) {
-			runnerListeners.add(listener);
+			synchronized(eventLock){
+				runnerListeners.add(listener);
+			}
 		}
 	}
 
 	@Override
 	public void removeListener(RunnerListener listener) {
 		if (listener != null) {
-			runnerListeners.remove(listener);
+			synchronized(eventLock){
+				runnerListeners.remove(listener);
+			}
 		}
 	}
 	

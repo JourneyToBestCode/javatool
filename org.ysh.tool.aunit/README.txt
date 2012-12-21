@@ -1,1 +1,1 @@
-I've move the code to project iorg.jt.aunit
+I've move the code to project org.jt.aunit
